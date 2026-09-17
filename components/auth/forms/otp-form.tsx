@@ -300,6 +300,10 @@ export function OtpForm({ purpose, length = 6 }: OtpFormProps) {
         </AuthButton>
       </form>
 
+      <p className="text-md text-indigo-500/80 my-3">
+        <b>Note:</b> Get the valid OTP from the network tab in dev tools. This is just for development purposes. In Production you'll receive it via email or SMS.
+      </p>
+
       <AlertModal
         open={modalOpen}
         onClose={() => setModalOpen(false)}
