@@ -58,7 +58,7 @@ export function ForgotPasswordForm() {
         Forgot your password?
       </h2>
       <p className="mt-2 text-body text-subtle">
-        Don&apos;t worry! Enter your email address, and we&apos;ll send you a link to reset it.
+        Don&apos;t worry! Enter your email address, and we&apos;ll send you an otp to reset it.
       </p>
 
       <form className="mt-8 space-y-5" onSubmit={onSubmit} noValidate>
